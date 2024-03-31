@@ -21,9 +21,6 @@
 	--backgroundtertiary: 			32, 34, 37;
 	--backgroundfloating: 			24, 25, 28;
 	
-	
-	--font_v:				var(--font_s, var(--font));
-	
 	--mentioncolor_v:			var(--mentioncolor_s, var(--mentioncolor));
 	--successcolor_v:			var(--successcolor_s, var(--successcolor));
 	--warningcolor_v:			var(--warningcolor_s, var(--warningcolor));
@@ -216,9 +213,6 @@
 	--deprecated-text-input-border-hover: #040405;
 	--deprecated-text-input-border-disabled: #202225;
 	--deprecated-text-input-prefix: rgb(var(--textbrighter_v));
-	
-	--font-primary: var(--font_v) !important;
-	--font-display: var(--font_v) !important;
 }
 
 html {
@@ -3773,8 +3767,6 @@ html .monaco-menu .monaco-action-bar.vertical .action-menu-item {
 	margin: 2px 0;
 	padding: 6px 8px;
 	line-height: 18px;
-	font-size: 14px;
-	font-weight: 500;
 	box-sizing: border-box;
 	min-height: 32px;
 }
@@ -3791,14 +3783,12 @@ html .monaco-menu .monaco-action-bar.vertical .action-label {
 	flex: 1 1 auto;
 	white-space: nowrap;
 	overflow: hidden;
-	font-size: unset;
 	line-height: unset;
 	text-overflow: ellipsis;
 	padding: unset;
 }
 html .monaco-menu .monaco-action-bar.vertical .keybinding,
 html .monaco-menu .monaco-action-bar.vertical .submenu-indicator {
-	font-size: unset;
 	line-height: unset;
 	padding-left: unset;
 	flex: 0 0 auto;
@@ -3946,7 +3936,6 @@ html:only-child > head + body div.app_b1f720 > div.app_de4237 > div.layers__1c91
 }
 html:only-child > head + body div.app_b1f720 > div.app_de4237 > div.layers__1c917.layers_a23c37 > div.layer_f7d46a.baseLayer__2b890 + div.layer_f7d46a > div.standardSidebarView__12528 > div.sidebarRegion__36437 > div.sidebarRegionScroller__8113e.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0 > nav.sidebar__02e8d > div.side_b4b3f6 > div.info__755e1::after {
 	content: "DiscordRecolor by" !important;
-	font-size: 12px !important;
 	color: var(--text-muted) !important;
 	cursor: pointer !important;
 	display: inline !important;
@@ -3965,8 +3954,6 @@ html:only-child > head + body div.app_b1f720 > div.app_de4237 > div.layers__1c91
 }
 html:only-child > head + body div.app_b1f720 > div.app_de4237 > div.layers__1c917.layers_a23c37 > div.layer_f7d46a.baseLayer__2b890 + div.layer_f7d46a > div.standardSidebarView__12528 > div.sidebarRegion__36437 > div.sidebarRegionScroller__8113e.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0 > nav.sidebar__02e8d > div.side_b4b3f6 > div.info__755e1::before {
 	content: "DevilBro" !important;
-	font-size: 12px !important;
-	font-weight: 600 !important;
 	color: rgb(var(--accentcolor_v)) !important;
 	display: inline !important;
 	opacity: 1 !important;
